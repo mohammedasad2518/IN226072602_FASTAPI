@@ -51,23 +51,31 @@ git clone https://github.com/mohammedasad2518/IN226072602_FASTAPI.git
 
 ### 2. Create a Virtual Environment
 
+```bash
 python -m venv venv
+```
 
 Activate the environment:
 
 **Windows**
 
+```bash
 venv\Scripts\activate
+```
 
 **Mac / Linux**
 
+```bash
 source venv/bin/activate
+```
 
 ---
 
 ### 3. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
@@ -75,15 +83,21 @@ pip install -r requirements.txt
 
 Navigate to any assignment folder and run:
 
+```bash
 uvicorn main:app --reload
+```
 
 Example:
 
+```bash
 cd assignment1 uvicorn main:app --reload
+```
 
 The API will start at:
 
+```bash
 http://127.0.0.1:8000
+```
 
 ---
 
@@ -93,14 +107,17 @@ FastAPI automatically generates interactive API documentation.
 
 Swagger UI:
 
+```bash
 http://127.0.0.1:8000/docs
+```
 
 ReDoc:
 
+```bash
 http://127.0.0.1:8000/redoc
+```
 
 ---
 
 ## Author
-
 **Mohammed Asad**
