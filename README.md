@@ -43,7 +43,9 @@ Main dependencies:
 
 ### 1. Clone the Repository
 
+```bash
 git clone https://github.com/mohammedasad2518/IN226072602_FASTAPI.git
+```
 
 ---
 
